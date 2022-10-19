@@ -1,0 +1,30 @@
+{
+  "name": "mock-srv",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with Fastify-CLI.",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap \"test/**/*.test.js\"",
+    "start": "fastify start -l info app.js",
+    "dev": "fastify start -w -l info -P app.js"
+  },
+  "keywords": [],
+  "author": "Adrian Berriel",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/autoload": "^5.4.1",
+    "@fastify/cors": "^8.1.0",
+    "@fastify/sensible": "^4.1.0",
+    "fastify": "^4.0.0",
+    "fastify-autoload": "^3.13.0",
+    "fastify-cli": "^4.4.0",
+    "fastify-cors": "^6.1.0",
+    "fastify-plugin": "^3.0.0"
+  },
+  "devDependencies": {
+    "tap": "^16.1.0"
+  }
+}
